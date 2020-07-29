@@ -1,8 +1,7 @@
 execute(){
-	./online
-}
-debug(){
-	nemiver online
+	./online data/PETS09-S2L1.csv
+
+	# ./online data/ADL-Rundle-6/det.txt
 }
 build(){
 	[ -d build/ ] && {

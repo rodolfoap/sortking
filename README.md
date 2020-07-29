@@ -31,3 +31,10 @@ Using the [MOT challenge devkit](https://motchallenge.net/devkit/) this code pro
 A bit worse than original SORT but not significantly. This may due to my keeping the default parameters of Kalman filters.
 The speed of this implementation is at about 1800 FPS, or ~3 seconds over 5500 frames on my machine, with the Debug configuration. 
 
+### Example usage
+
+Due to certain constraints, the code has been simplified to run as this:
+
+```
+./online data/ADL-Rundle-6/det.txt
+```

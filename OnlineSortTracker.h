@@ -8,7 +8,9 @@
 
 typedef struct TrackingBox {
 	int frame;
-	int id;
+	int id;  // tracking id
+	float p; // probability
+	int cls; // e.g. person, car
 	Rect_<float> box;
 	TrackingBox() {}
 	//TrackingBox(int f, int i, float x, float y, float w, float h):frame(f), id(i), box(x, y, w, h) {}
