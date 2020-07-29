@@ -1,5 +1,6 @@
 execute(){
 	./online data/PETS09-S2L1.csv > data/PETS09-S2L1-with-ids.csv
+	cat data/PETS09-S2L1-with-ids.csv
 	# ./online data/ADL-Rundle-6/det.txt
 }
 build(){
