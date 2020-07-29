@@ -58,7 +58,7 @@ void doSORT(string seqName) {
 		// Printing entries
 		int n=0;
 		for(TrackingBox tb: frames[fi]) std::cout<<tb.frame<<"," <<n++<<"," <<tb.id<<"," <<tb.box.x<<"," <<tb.box.y<<"," <<tb.box.width<<"," <<tb.box.height<<"," <<tb.p<<',' <<tb.cls<<"\n";
-		std::cout<<std::endl;
+		//std::cout<<std::endl;
 	}
 }
 
